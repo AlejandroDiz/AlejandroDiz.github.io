@@ -1,0 +1,40 @@
+body {
+    background-color:aliceblue;
+    place-content: center center;
+}
+BODY {color:black}
+
+html {height: 100%;}body {background-image: linear-gradient(to bottom right, #006a43, #ffffff,  #FFFFFF, rgba(255, 0, 0, 0.663));}
+
+.mi-parrafo {
+    font-size: 25px;
+    font-family: 'Comic Sans MS';
+}
+
+.m-title {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Copperplate Gothic Bold';
+}
+
+.mi-subtitulos{ 
+    text-align: center;   
+    font-family: 'Cooper Black';
+    font-size: 24px;
+}
+
+#personajes {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 90%;
+    margin: 5%;
+    grid-gap: 30px;
+}
+#personajes img{
+    width: 100%;
+    transition: all 300ms;
+    position: relative;
+}
+#personajes img:hover{
+    transform: scale(1.20);
+}
